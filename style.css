@@ -1,29 +1,38 @@
 h1{
-    color: black;
-    font-family: fantasy;
-    font-size: 50px;
+    color:rgb(0, 255,17);
+    font-style: italic;
+    font-size: 45px;
+    display: inline;
 }
- mainflag{
-    height: 300px;
-    width: 600px;
-    background-color: green;
+ #main-flag{
+    width: 800px;
+    height: 400px;
+    background-color: green;display: flex;
+    justify-content: center;
     align-items: center;
-    display: flex;
 }
-circle{
-    background-color: red;
-    height: 150px;
-    width: 150px;
+.circle-flex{
     display: flex;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.color{
+    background-color:red;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
-.bamboo{
-    background-color: burlywood;
-    height: 800px;
-    width: 20px;
+#flag{
     display: flex;
 }
-#natinal{
+.bambo{
+    height: 900px;
+    width: 20px;
+    background-color: chocolate;
+}
+.middle{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
